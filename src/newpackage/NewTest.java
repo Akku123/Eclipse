@@ -26,7 +26,7 @@ public class NewTest {
   Assert.assertEquals(actualTitle, expectedResult);
   driver.manage().window().maximize();
   driver.findElement(By.xpath("//a[text()='Agile Project']")).click();;
-  Thread.sleep(8000);
+  Thread.sleep(9000);
  String Text= driver.findElement(By.xpath("//h2[text()='Guru99 Bank']")).getText(); 
  
  Assert.assertTrue(Text.contains(Text), "Text Found");
