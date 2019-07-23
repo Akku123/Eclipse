@@ -16,7 +16,7 @@ public class NewTest {
   @Test
   public void verifyHomepageTitle() throws InterruptedException {
 	  
-  System.out.println("launching Chrome browser on chrome on chrome"); 
+  System.out.println("launching Chrome browser on chrome on chrome Branch"); 
   
   System.setProperty("webdriver.chrome.driver",driverPath);
   driver= new ChromeDriver();
